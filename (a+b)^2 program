@@ -1,0 +1,14 @@
+
+//(a+b)^2= a^2+b^2+2ab
+public class Example1{
+
+     public static void main(String []args){
+       int a=10,b=5,x,y,z;
+       x=a*a+b*b;
+       y=2*a*b;
+       z=x+y;
+       
+       
+        System.out.println("answer="+z);
+     }
+}
