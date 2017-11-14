@@ -1,0 +1,16 @@
+public class Fibonacci{
+
+     public static void main(String []args){
+         int a=0,b=1,c,z=1;
+         do{
+             c=a+b;
+             
+             a=b;
+             b=c;
+            z=c*z;
+        
+        System.out.println(c);
+         }while(c<13);
+        System.out.println(z);
+     }
+}
