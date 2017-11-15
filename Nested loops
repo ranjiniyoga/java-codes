@@ -1,0 +1,14 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         int a=1,b=1,c;
+         for(;a<=3;a++){
+         c=3+b;
+             for(;b<c;b++){
+                System.out.print(b);
+             }
+         
+        System.out.println( );
+         }
+     }
+}
