@@ -1,0 +1,53 @@
+package centerprogram;
+public class ArrayExample5 {
+
+	public static void main(String[] args) {
+		int i[][]=new int [2][2];
+		i[0][0]=1;
+		i[0][1]=2;
+		i[1][0]=3;
+		i[1][1]=4;
+System.out.println("array1 values");
+		for(int x=0;x<2;x++) {
+			for(int y=0;y<2;y++) {
+				System.out.print(i[x][y]);
+
+			}
+			System.out.println();
+
+		}
+		int j[][]=new int [2][2];
+		j[0][0]=1;
+		j[0][1]=2;
+		j[1][0]=3;
+		j[1][1]=4;
+		System.out.println("array2 values");
+
+		for(int x=0;x<2;x++) {
+			for(int y=0;y<2;y++) {
+				System.out.print(j[x][y]);
+			}
+			System.out.println();
+		}
+
+		int k[][]=new int [2][2];
+		for(int a=0;a<2;a++) {
+			for(int b=0;b<2;b++) {
+				k[a][b]=i[a][b]+j[a][b];
+			}
+
+		}		System.out.println("array1 + array2 values");
+
+	
+	for(int x=0;x<2;x++) {
+		for(int y=0;y<2;y++) {
+			System.out.print(k[x][y]);
+
+		}
+		System.out.println();
+
+	}
+	
+}
+}
+	
