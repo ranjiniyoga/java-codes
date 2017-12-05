@@ -1,0 +1,51 @@
+package centerprogram;
+public class Arrayexample4 {
+
+	public static void main(String[] args) {
+		
+		char c[][]= new char [7][7];
+		c[0][0]='R';
+		c[1][1]='A';
+		c[2][2]='N';
+		c[3][3]='J';
+		c[4][4]='I';
+		c[5][5]='N';
+		c[6][6]='I';
+		System.out.println("STEP 1 ");
+
+		for(int a=0;a<7;a++) {
+			for(int b=0;b<7;b++) {
+				
+				System.out.print(c[a][b]);				
+			}
+			System.out.println();
+		} 
+		cha();
+	}
+	public static void cha() {		
+		
+		char i[]= {'r','a','n','j','i','n','i'};
+		System.out.println("STEP 2");
+
+		for(int a=0;a<7;a++) {
+
+			for(int b=0;b<=a;b++) {
+				System.out.print(" ");
+
+				if(a==b) {
+				System.out.print(i[b]);
+				}
+			}
+			System.out.println();
+		} 
+	}
+}
+
+		
+		
+		
+		
+
+	
+
+
