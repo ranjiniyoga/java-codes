@@ -1,0 +1,138 @@
+package centertest;
+			//TEST 1 CHAPTER 1 TO 5 SYLLABUS
+import java.util.Scanner;
+public class Test1 {
+
+	public static void main(String[] args) {
+		//questions1();
+		//questions2();
+		//questions3();
+		//questions4();
+		//questions5();
+		//questions6();
+		questions7();
+
+
+
+
+	}
+
+	
+	public static void questions1() {
+		System.out.println("Welcome to payilagam");
+				
+	}
+	public static void questions2() {
+		byte a=100;short b=700;int c=59999;float d=67.6f;double e=45.789;
+		long f=1964278;char g='w';boolean h=true;
+		System.out.println(a+" "+b+" "+c+" "+d+" "+e+" "+f+" "+g+" "+h);
+		
+	}
+	public static void questions3() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the values");
+		byte a=sc.nextByte();short b=sc.nextShort();int c=sc.nextInt();float d=sc.nextFloat();double e=sc.nextDouble();
+		long f=sc.nextLong();boolean h=sc.nextBoolean();
+		System.out.println(a+" "+b+" "+c+" "+d+" "+e+" "+f+" "+h);
+
+		
+	}
+	public static void questions4() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the values of x");
+
+		int x=sc.nextInt();
+int b=0;
+		for(int a=0;a<x;a++) {
+			while(b<=a) {
+				
+			System.out.println("welcome");
+			b++;
+			}
+
+			
+			
+		}
+	}
+
+	
+	public static void questions5() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the values of a,b,c");
+
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=sc.nextInt();
+
+		if(a%2==0) {
+			System.out.println(a+" is even");
+
+		}else { 
+			System.out.println(a+" is odd");
+
+		}
+		if(b%2==0) {
+			System.out.println(b+" is even");
+
+		}else { 
+			System.out.println(b+" is odd");
+
+		}
+		if(c%2==0) {
+			System.out.println(c+" is even");
+
+		}else { 
+			System.out.println(c+" is odd");
+
+		}
+		if(a>b&&a>c) {
+			System.out.println(a+" is greater");}
+		if(b>a&&b>c) {
+			System.out.println(b+" is greater");}
+		if(c>b&&c>a) {
+			System.out.println(c+" is greater");}
+
+		if(a<b&&a<c) {
+			System.out.println(a+" is smaller");}
+		if(b<a&&b<c) {
+			System.out.println(b+" is smaller");}
+		if(c<b&&c<a) {
+			System.out.println(c+" is smaller");}
+	
+	}
+
+	
+	public static void questions6() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the course name ");
+		String a=sc.nextLine();
+		switch(a) {
+		case "JAVA":
+			System.out.println("JAVA");break;
+		case "ANDROID":
+			System.out.println("ANDROID");break;
+		case "DOTNET":
+			System.out.println("DOTNET");break;
+			default:
+				System.out.println("please enter the correct name");break;
+
+		}
+
+	}
+
+	
+	public static void questions7() {
+		for(int a=1;a<=10;a++) {
+			if(a==3) {
+				continue;
+				
+			}
+			System.out.println(a);
+		}
+	}
+
+	
+
+	
+
+}
